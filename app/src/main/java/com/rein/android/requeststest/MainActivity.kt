@@ -95,12 +95,8 @@ class MainActivity : AppCompatActivity() {
 }
 
 interface Net {
-
     @Headers("x-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJYLUZpbmdlcnByaW50IjoiOWM4YmE4MTNhZjIzNzIzNGRmMjZiOTVhNjg5M2ZkYTYiLCJ1c2VyX25hbWUiOiJkLnJleW5AZXZvdG9yLnJ1IiwieF91c2VyX2lkIjoiNDBkMjQ4MjYtMzk1ZS00ZDUyLWE5NDAtZmViMjMzOTgzZWM4Iiwic2NvcGUiOlsicmVhZCIsIndyaXRlIiwicHVyY2hhc2UiLCIyZmE6ZGlzYWJsZSJdLCJleHAiOjE2MzIyOTQ2ODQsImlhdCI6MTYzMjI5Mjg4NDk2MSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9QVUJMSVNIRVIiXSwianRpIjoiZDA5NmM4OTQtNDhlZi00NGM4LWIwNTctOTdhZDliODNhZjQzIiwieF91aWQiOm51bGwsImNsaWVudF9pZCI6IkV2by1VSSIsInhfbG9uZ2xpdmVkIjpmYWxzZX0.BsIHJZYu2JIPi6nYd74o9otm3erdRnYVASAAynoKrzQ")
     @GET("72514704-fddc-47ac-bca9-0eb78e9f39fb")
-    fun get(@Body body: String?): Single<String>
+    //fun get(@Body body: String?): Single<String>
     fun get(): Single<String>
-
-
-
 }
